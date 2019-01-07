@@ -2,7 +2,7 @@
   "name": "highlight-bad-chars",
   "main": "./lib/highlight-bad-chars",
   "version": "1.4.1",
-  "description": "Highlight bad Unicode characters that can cause hard to spot syntax errors.",
+  "description": "Highlight Unicode characters that can cause issues in source code.",
   "keywords": [
     "highlight",
     "unicode",
@@ -14,5 +14,11 @@
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^1.15.3"
+  },
+  "scripts": {
+    "format": "npx prettier --write \"{lib,spec}/*.js\""
+  }
 }
