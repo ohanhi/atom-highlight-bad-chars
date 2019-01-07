@@ -16,9 +16,11 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "prettier": "^1.15.3"
+    "prettier": "^1.15.3",
+    "prettier-check": "^2.0.0"
   },
   "scripts": {
-    "format": "npx prettier --write \"{lib,spec}/*.js\""
+    "test": "npx prettier-check \"{lib,spec,styles}/*.{js,less}\"",
+    "format": "npx prettier --write \"{lib,spec,styles}/*.{js,less}\""
   }
 }
