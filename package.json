@@ -1,7 +1,7 @@
 {
   "name": "highlight-bad-chars",
   "main": "./lib/highlight-bad-chars",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Highlight bad Unicode characters that can cause hard to spot syntax errors.",
   "keywords": [
     "highlight",
