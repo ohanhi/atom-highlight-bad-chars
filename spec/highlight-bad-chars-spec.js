@@ -12,7 +12,7 @@ describe("HighlightBadChars", () => {
 
   describe("when the test suite is run", () => {
     it("has some actual tests", () => {
-      expect(false).toBe(true)
-    })
-  })
+      expect(false).toBe(true);
+    });
+  });
 });
