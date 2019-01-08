@@ -1,6 +1,6 @@
 "use babel";
 
-import HighlightBadChars from "../lib/highlight-bad-chars";
+import HighlightBadChars from "../lib/highlight-bad-chars-bl";
 
 // Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 //
